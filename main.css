@@ -1,0 +1,77 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	overflow: none; 
+	padding: 0px;
+	margin: 0px;
+	font-family: "Roboto";
+	background-color: rgb(249, 248, 247);
+}
+
+div {
+	display: inline-block;
+	margin-right: -4px;
+	vertical-align: middle;
+}
+
+div#top-left {
+	width: 50%;
+	min-height: 60%;
+	background-image: url('tiffanypic.jpg') ; 
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+div#top-right {
+	width: 50%;
+	min-height: 60%;
+	padding: 5% 8%;
+	color: rgb(66, 188, 244);
+}
+
+div#bottom {
+	width: 100%;
+	min-height: 40%;
+	padding: 3% 20%;
+	color: rgb(220, 222, 224);
+	background-color: rgb(40, 40, 40);
+}
+
+div#bottom-left {
+	width: 50%;
+	vertical-align: top;
+}
+
+div#bottom-right {
+	width: 30%;
+	margin-left: 20%;
+	vertical-align:top;
+}
+
+h1 {
+	font-size: 45px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 35px;
+	margin-bottom: 15px;
+}
+
+p {
+	font-size: 22px;
+	font-weight: lighter;
+	line-height: 1.4;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(3,203,235)
+}
